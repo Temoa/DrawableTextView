@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DrawableTextView">
+        <attr name="dtv_start_width" format="reference|dimension" />
+        <attr name="dtv_start_height" format="reference|dimension" />
+
+        <attr name="dtv_end_width" format="reference|dimension" />
+        <attr name="dtv_end_height" format="reference|dimension" />
+
+        <attr name="dtv_top_width" format="reference|dimension" />
+        <attr name="dtv_top_height" format="reference|dimension" />
+
+        <attr name="dtv_bottom_width" format="reference|dimension" />
+        <attr name="dtv_bottom_height" format="reference|dimension" />
+    </declare-styleable>
+</resources>

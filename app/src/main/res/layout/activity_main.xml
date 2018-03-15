@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="6dp"
+        android:drawableStart="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:text="origin" />
+
+    <me.temoa.drawabletextview.DrawableTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="6dp"
+        android:drawableStart="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:text="24dp"
+        app:dtv_start_height="24dp"
+        app:dtv_start_width="24dp" />
+
+    <me.temoa.drawabletextview.DrawableTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="6dp"
+        android:drawableStart="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:text="32dp"
+        app:dtv_start_height="32dp"
+        app:dtv_start_width="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableEnd="@mipmap/ic_launcher"
+        android:drawablePadding="6dp"
+        android:drawableStart="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:text="origin" />
+
+    <me.temoa.drawabletextview.DrawableTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableEnd="@mipmap/ic_launcher"
+        android:drawablePadding="6dp"
+        android:drawableStart="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:text="start 32dp, end 48dp"
+        app:dtv_end_height="48dp"
+        app:dtv_end_width="48dp"
+        app:dtv_start_height="32dp"
+        app:dtv_start_width="32dp" />
+
+    <me.temoa.drawabletextview.DrawableTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableBottom="@mipmap/ic_launcher"
+        android:drawableEnd="@mipmap/ic_launcher"
+        android:drawablePadding="6dp"
+        android:drawableStart="@mipmap/ic_launcher"
+        android:drawableTop="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:text="start 12dp, top 24dp, end 36dp, bottom 48dp"
+        app:dtv_bottom_height="48dp"
+        app:dtv_bottom_width="48dp"
+        app:dtv_end_height="36dp"
+        app:dtv_end_width="36dp"
+        app:dtv_start_height="12dp"
+        app:dtv_start_width="12dp"
+        app:dtv_top_height="24dp"
+        app:dtv_top_width="24dp" />
+
+</LinearLayout>
