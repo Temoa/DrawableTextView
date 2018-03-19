@@ -1,6 +1,6 @@
 # DrawableTextView
 
-<p><img src="art/1.png" width="25%" /></p>
+![example](art/1.png)
 
 ### example
 
